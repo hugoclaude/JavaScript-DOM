@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+ <meta charset='UTF-8'>
+ <title></title>
+</head>
+<body>
+    <div id='parent'></div>
+</body>
+<script>
+const p = document.createElement("p");  //this line created the new element. In this case its the paragraph element
+const newContent = document.createTextNode('Hello'); //this line creates a text node
+p.appendChild(newContent); //this line appends the text node to the designated element ("p")
+const divIdParent = document.querySelector("#parent"); //this line selects a specific tag whether a div class (.) or an ID(#)
+divIdParent.appendChild(p); //thus line appends the created element to the selected element which will put the text from the "P" within the identified element
+</script>
+</html>
