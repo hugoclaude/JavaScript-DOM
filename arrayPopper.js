@@ -6,7 +6,7 @@ class arrayPopper {
 
     togglePopper() {
         this.atBeginning = !this.atBeginning;
-        return this.atBeggining ? this.att.pop() : this.arr.shift():
+        return this.atBeggining ? this.att.pop() : this.arr.shift();
     }
 }
 
